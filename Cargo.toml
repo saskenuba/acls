@@ -1,0 +1,18 @@
+[package]
+name = "another-clj-lsp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dashmap = "5.5.0"
+env_logger = "0.10.0"
+im-rc = "15.1.0"
+log = "0.4.19"
+ropey = "1.6.0"
+salsa = "0.17.0-pre.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.78"
+tokio = { version = "1.30.0", features = ["full"]}
+tower-lsp = { version = "0.19.0", features = ["proposed"]}
